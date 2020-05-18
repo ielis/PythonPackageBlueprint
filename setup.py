@@ -1,7 +1,5 @@
 from setuptools import setup, find_packages
 
-from pypablue import __version__
-
 # read requirements/dependencies
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
@@ -12,7 +10,7 @@ with open("README.md", 'r') as fh:
 
 
 setup(name='pypablue',
-      version=__version__,
+      version='0.0.1.dev0',
       packages=find_packages(),
       install_requires=requirements,
 

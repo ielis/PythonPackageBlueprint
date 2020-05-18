@@ -1,3 +1,5 @@
-__version__ = '0.0.1.dev0'
+import pkg_resources
+
+__version__ = pkg_resources.get_distribution('pypablue').version
 
 from . import fasta

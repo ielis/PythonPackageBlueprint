@@ -26,12 +26,16 @@ This example uses `pysam` to fast random access to indexed Fasta file.
 
 ## Install the package
 
-We install the requirements and then the package.
-
+We install the package including requirements by running:
 ```bash
+# enter the project directory
 cd PythonPackageBlueprint
-pip install -r requirements.txt
+
+# install the package 
 pip install .
+
+# test that the installation worked
+pypablue --help
 ```
 
 ## Command line interface
